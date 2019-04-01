@@ -34,7 +34,6 @@ public class RegisterActivity extends AppCompatActivity {
         ConfirmPass = (EditText) findViewById(R.id.confirm_password);
 
         firebaseAuth = FirebaseAuth.getInstance();
-
         FirebaseApp.initializeApp(RegisterActivity.this);
 
         Register_btn.setOnClickListener(new View.OnClickListener() {
