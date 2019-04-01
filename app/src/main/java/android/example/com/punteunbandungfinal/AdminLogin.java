@@ -1,5 +1,6 @@
 package android.example.com.punteunbandungfinal;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -20,11 +21,18 @@ public class AdminLoginActivity extends AppCompatActivity {
     private EditText username, email, password;
     private Button Login, Register;
     private FirebaseAuth firebaseAuth;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class AdminLogin extends AppCompatActivity {
+>>>>>>> 3984e7771dd48475e47cf611450a85d495bb0e07
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_login);
+<<<<<<< HEAD
         getSupportActionBar().setTitle("Admin Login Form");
 
         Register = (Button)findViewById(R.id.button4);
@@ -92,3 +100,7 @@ public class AdminLoginActivity extends AppCompatActivity {
         });
     }
 }
+=======
+    }
+}
+>>>>>>> 3984e7771dd48475e47cf611450a85d495bb0e07
