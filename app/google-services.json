@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "301297102110",
+    "firebase_url": "https://fir-test-584b0.firebaseio.com",
+    "project_id": "fir-test-584b0",
+    "storage_bucket": "fir-test-584b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301297102110:android:5a54c9aa4f97028f",
+        "android_client_info": {
+          "package_name": "android.example.com.punteunbandungfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301297102110-onj9agg50g8ikc870mf10v4hhsldv9ln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.com.punteunbandungfinal",
+            "certificate_hash": "cc50e3fd1565ddf46a7331b00e38f4708869dce7"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQgCbl5kEUVNdtX4KDvBiuewnX1MqOlLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301297102110-g34f12tc4v2qdd97r5q2fmeljs7mb9i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
