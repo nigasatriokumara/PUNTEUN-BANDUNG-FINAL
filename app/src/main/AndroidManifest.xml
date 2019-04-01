@@ -19,5 +19,6 @@
             </intent-filter>
         </activity>
     </application>
+        android:theme="@style/AppTheme"></application>
 
 </manifest>
