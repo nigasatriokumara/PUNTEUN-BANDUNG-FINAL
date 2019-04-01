@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name=".AdminLogin">
+=======
         <activity android:name=".AdminRegister">
       </activity>
         <activity android:name=".AdminLogin">
@@ -16,6 +19,7 @@
       <activity android:name=".RegisterActivity">
       </activity>
         <activity android:name=".LoginActivity">
+>>>>>>> 3984e7771dd48475e47cf611450a85d495bb0e07
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
