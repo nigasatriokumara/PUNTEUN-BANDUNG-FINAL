@@ -34,7 +34,6 @@ public class AdminRegisterActivity extends AppCompatActivity {
         ConfirmPass = (EditText) findViewById(R.id.editText5);
 
         firebaseAuth = FirebaseAuth.getInstance();
-
         FirebaseApp.initializeApp(AdminRegisterActivity.this);
 
         Mangga_regist.setOnClickListener(new View.OnClickListener() {
@@ -83,9 +82,9 @@ public class AdminRegisterActivity extends AppCompatActivity {
 
                                         Toast.makeText(AdminRegisterActivity.this, "Authentication Failed", Toast.LENGTH_SHORT).show();
                                     }
-                                }
+                                
                             });
-                }
+                
             }
         });
     }
